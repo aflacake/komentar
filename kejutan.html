@@ -1,12 +1,14 @@
-<! DOCTYPE HTML>
+<!DOCTYPE html>
 <html>
   <body>
-    <div style="background-color: gray; padding:18;">
-      <img src="" width="300" height="300">
-      <p style="color: white;">Membuat kamu terlampar ke halaman ini. Kejutannya sebenarnya tentu saja kejutannya</p>
-    </div>
+        <!-- peringatan -->
+      <div class="alert1">
+        <span class="closebtn"
+          onclick="this.parentElement.style.display='none';">&times;</span>
+        <strong>!</strong> Membuat kamu terlampar ke halaman ini. Kejutannya sebenarnya tentu saja kejutannya
+      </div>
     
-    <!-- Kejutan -->
+        <!-- Kejutan -->
     <h1 style="color: purple">Kejutan</h1>
     <div class="div1">
       <h2 style="color: yellow; text-align: center; background-color: purple; border: 7px solid yellow; padding: 3px; margin: 2px;">Kejutan.. <br>
@@ -14,7 +16,7 @@
         jika Anda tidak ingin melihatnya sekarang?</h2>
         </div>
 
-    <!-- Paragraf -->
+         <!-- Paragraf -->
     <p>Kejutan yang kamu dapatkan adalah fitur dan isi inovasi terbaru mendadak. Terkadang aku suka membuat perubahan tanpa diminta,
       sebenarnya boleh jika ingin meminta. Biasanya perlu peninjauan atau respon cepat dariku. Pastinya aku memberitahu kamu notif atas peringatan jika ada pembaruan,
       biasanya atau mungkin tidak, <i>WHOOPS</i>. Pastinya selalu menikmati aplikasi yang aku buat!</p>
@@ -22,6 +24,25 @@
   <style>
     body {
       font-family: Arial;
+    }
+
+    /*peringtan*/
+    .alert1 {
+      padding: 14px;
+      background-color: purple;
+      color: white;
+    }
+    .closebtn {
+    margin-left: 15px:
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 20px;
+    color: yellow;
+    float: right;
+    cursor: pointer;
+    }
+    .closebtn:hover {
+    color: white;
     }
   </style>
 </html>
